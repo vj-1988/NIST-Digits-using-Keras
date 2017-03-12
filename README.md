@@ -15,14 +15,14 @@ The second link contains the data segregated into Digits, Capital letters and Lo
 
 ### Step 1 - Prepare the dataset
 
-1) Download the dataset from google drive link. 
-2) Modify the paths in create_dataset.py and generate train and val set.
+1. Download the dataset from google drive link. 
+2. Modify the paths in create_dataset.py and generate train and val set.
 
 ### Step 2 - Train
 
-1) Modify the paths in train.py to point to appropriate train path
-2) Modify the batch size to suit the gpu's memory. Batch size of 16 fits in 4gb of gpu memory.
-3) Run the train.py and there will be a snapshot for evry epoch
+1. Modify the paths in train.py to point to appropriate train path
+2. Modify the batch size to suit the gpu's memory. Batch size of 16 fits in 4gb of gpu memory.
+3. Run the train.py and there will be a snapshot for evry epoch
 
 ## Download the pre-trained model
 
@@ -35,10 +35,10 @@ The pre-trained model can be downloaded below
 
 The network has the following architecture
 
-1) 5 convolutional layers with filter size of 3x3 with ReLu nonlinearity (Inspiredfrom VGG architecture)
-2) Dropout layer with dropout factor of 0.2 (experimental)
-3) 3 hidden layers with ReLu activation
-4) Softmax layer
+1. 5 convolutional layers with filter size of 3x3 with ReLu nonlinearity (Inspiredfrom VGG architecture)
+2. Dropout layer with dropout factor of 0.2 (experimental)
+3. 3 hidden layers with ReLu activation
+4. Softmax layer
 
 
 ## Validation
